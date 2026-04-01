@@ -5,13 +5,13 @@ import RocketImg from '../assets/rocket.png'
 const GetStarte = () => {
     return (
         <>
-        <div className='bg-gray-100 mt-10 pb-10'>
-                     <div className='text-center pt-18 ' >
-            <h2 className='text-4xl font-bold'>Get Started in 3 Steps</h2>
+        <div className='bg-gray-100 mt-10 pb-10 '>
+                     <div className='text-center pt-18  text-gray-800' >
+            <h2 className='text-4xl font-bold '>Get Started in 3 Steps</h2>
             <p>Start using premium digital tools in minutes, not hours.</p>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-3  w-11/12 mx-auto gap-6 my-10'>
+        <div className='grid grid-cols-1 md:grid-cols-3 w-11/12 mx-auto gap-6 my-10 place-items-center'>
            <div className="card bg-base-100 w-100 min-h-80 shadow-sm">
             <div className='flex justify-between my-2 mx-4'>
         <span></span>

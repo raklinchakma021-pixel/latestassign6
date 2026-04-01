@@ -20,7 +20,7 @@ const NavBar = ({count, setShowCart}) => {
         <li><a>FAQ</a></li>
       </ul>
     </div>
-    <a className=" text-4xl font-bold  bg-linear-to-r from-blue-600  to-purple-400 bg-clip-text text-transparent">DigiTools</a>
+    <a className=" text-2xl md:text-4xl font-bold  bg-linear-to-r from-blue-600  to-purple-400 bg-clip-text text-transparent">DigiTools</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 font-semibold">
