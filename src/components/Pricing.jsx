@@ -10,8 +10,19 @@ const Pricing = () => {
       </div>
 
       <div className="grid md:grid-cols-3 gap-6 mt-10 w-11/12 mx-auto leading-7">
-        {PricingData.map(product => (
-          <div key={product.id} className="card p-6 shadow ">
+        {PricingData.map((product,index) => (
+          <div key={product.id}   className={`card shadow p-6 relative ${
+        index === 1
+          ? "bg-primary text-white"
+          : "bg-base-100"
+      }`}>
+         {index === 1 && (
+        <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+          <span className="bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-semibold shadow">
+            Most Popular
+          </span>
+        </div>
+      )}
             <h2 className="text-xl font-bold">{product.tag}</h2>
             <p>{product.description}</p>
             <span><strong className='text-2xl'>${product.price}</strong>/Month</span>
