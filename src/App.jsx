@@ -14,15 +14,17 @@ import GetStarte from './components/GetStarte'
 import Pricing from './components/Pricing'
 import Indicate from './components/Indicate'
 import Footer from './components/Footer'
+import { ToastContainer,toast } from 'react-toastify'
+import "react-toastify/dist/ReactToastify.css";
 function App() {
 
   const [cart, setCart] = useState([]);
   const [showCart, setShowCart] = useState(false);
 
 
-  const add=(product)=>{setCart([...cart, product])}
-  const remove = (id) => {setCart(cart.filter(product=>product.id!==id))}
-  const checkout = () => {setCart([])} 
+  const add=(product)=>{setCart([...cart, product]);toast.success("added to cart")}
+  const remove = (id) => {setCart(cart.filter(product=>product.id!==id));toast.error("removed")}
+  const checkout = () => {setCart([]);toast.info("Checkout Successful")} 
   const total = cart.reduce((s,product)=>s+product.price,0)
   return (
     <>
@@ -88,12 +90,13 @@ function App() {
                )
             }
 
-
             <GetStarte/>
+
 
             <Pricing/>
             <Indicate/>
             <Footer/>
+            <ToastContainer/>
     </>
   )
 }
