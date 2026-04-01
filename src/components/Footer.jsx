@@ -6,7 +6,7 @@ const Footer = () => {
         <>
      <div className='bg-black'>
          <div className='bg-black text-white leading-7 py-10'>
- <div className='grid grid-cols-12  w-11/12 mx-auto  gap-4'>
+ <div className='grid grid-cols-1 md:grid-cols-12  w-11/12 mx-auto  gap-4'>
             <div className='col-span-3'>
             <h2 className='font-bold text-4xl pb-6'>DigiTools</h2>
             <p>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
@@ -65,7 +65,7 @@ const Footer = () => {
                 <p>© 2026 Digitools. All rights reserved.</p>
             </div>
             <div>
-                <ul className='flex gap-2'>
+                <ul className='flex gap-2 flex-col md:flex-row'>
                     <li><a href="">Privacy Policy</a></li>
                     <li><a href="">Terms of Service</a></li>
                     <li><a href="">Cookies</a></li>

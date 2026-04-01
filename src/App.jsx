@@ -43,7 +43,7 @@ function App() {
 
             {
                !showCart && (
-                    <div className="grid grid-cols-3 gap-6 mt-10 w-11/12 mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 w-11/12 mx-auto">
                        {ProductsData.map(product => (
                         <ProductCard key={product.id} product={product} add={add} />
                        ))}

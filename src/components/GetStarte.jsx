@@ -11,7 +11,7 @@ const GetStarte = () => {
             <p>Start using premium digital tools in minutes, not hours.</p>
         </div>
 
-        <div className='flex justify-between w-11/12 mx-auto gap-6 my-10'>
+        <div className='grid grid-cols-1 md:grid-cols-3  w-11/12 mx-auto gap-6 my-10'>
            <div className="card bg-base-100 w-100 min-h-80 shadow-sm">
             <div className='flex justify-between my-2 mx-4'>
         <span></span>
