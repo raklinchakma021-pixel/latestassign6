@@ -6,8 +6,16 @@ const ProductCard = ({product, add,cart}) => {
             <div className="card bg-base-100 shadow-sm">
   <div className="card-body">
     <div className='flex justify-between '>
-    <span className="badge badge-xs badge-warning">{product.icon}</span>
-    <span>{product.tag}</span>
+    <span className="badge badge-md outline-gray-100 rounded-full p-4">{product.icon}</span>
+    <span   className={`px-3 py-1 rounded-full text-sm font-semibold capitalize ${
+    product.tag.toLowerCase() === "best seller"
+      ? "bg-yellow-100 text-gray-800"
+      : product.tag.toLowerCase() === "new"
+      ? "bg-green-100 text-gray-800"
+      : product.tag.toLowerCase() === "popular"
+      ? "bg-purple-100 text-gray-800"
+      : "bg-base-200"
+  }`}>{product.tag}</span>
     </div>
     <div className="">
       <h2 className="text-3xl font-bold">{product.name}</h2>
