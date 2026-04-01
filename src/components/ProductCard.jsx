@@ -29,7 +29,7 @@ const ProductCard = ({product, add,cart}) => {
       : "btn-primary"
   }`}>
          {cart.some(item => item.id === product.id)
-    ? "Add to Cart"
+    ? "Added to Cart"
     : "Buy Now"}
       </button>
     </div>
