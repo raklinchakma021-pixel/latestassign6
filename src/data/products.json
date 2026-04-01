@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Pack",
+    "description": "Basic resume templates for beginners to kickstart their career.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "20+ templates",
+      "Simple editor",
+      "Export to PDF"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization and premium templates.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF & DOCX"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Plan",
+    "description": "Complete toolkit including resume, cover letter, and portfolio builder.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Resume + Cover Letter",
+      "Portfolio builder",
+      "Priority support"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 4,
+    "name": "Student Pack",
+    "description": "Affordable resume builder designed for students and fresh graduates.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Easy customization",
+      "Download as PDF"
+    ],
+    "icon": "🎓"
+  },
+  {
+    "id": 5,
+    "name": "Executive Resume Kit",
+    "description": "Premium resume package tailored for senior professionals.",
+    "price": 79.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Executive templates",
+      "LinkedIn optimization",
+      "1-on-1 consultation"
+    ],
+    "icon": "👔"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Profile Builder",
+    "description": "Build stunning freelance profiles for platforms like Upwork and Fiverr.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Portfolio templates",
+      "Client proposal samples",
+      "Profile optimization"
+    ],
+    "icon": "🧑‍💻"
+  }
+]

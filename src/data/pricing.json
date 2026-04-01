@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "tag": "Starter",
+    "description": "Perfect for individuals",
+    "price": 9,
+    "buttonText": "Get Started",
+    "features": [
+      "Basic templates access",
+      "Email support",
+      "Single user account"
+    ]
+  },
+  {
+    "id": 2,
+    "tag": "Pro",
+    "description": "Ideal for professionals ",
+    "price": 29,
+    "buttonText": "Upgrade Now",
+    "features": [
+      "All starter features",
+      "Advanced customization",
+      "Priority support"
+    ]
+  },
+  {
+    "id": 3,
+    "tag": "Enterprise",
+    "description": "Best for teams and businesses .",
+    "price": 99,
+    "buttonText": "Contact Sales",
+    "features": [
+      "All pro features",
+      "Team collaboration tools",
+      "Dedicated account manager"
+    ]
+  }
+]
