@@ -37,15 +37,21 @@ function App() {
     {/* <MainSection  showCart={showCart} setShowCart={setShowCart}/> */}
       <SectionHead/>
      <div className='flex gap-2  justify-center my-7'>
-                <button onClick={()=>setShowCart(false)} className='btn btn-primary rounded-full '>Products</button>
-                <button onClick={()=> setShowCart(true)} className='btn btn-primary rounded-full '>Carts({cart.length})</button>
+                <button onClick={() => setShowCart(false)}
+    className={`btn rounded-full ${
+      !showCart ? 'btn-primary' : 'btn-outline'
+    }`} >Products</button>
+                <button  onClick={() => setShowCart(true)}
+    className={`btn rounded-full ${
+      showCart ? 'btn-primary' : 'btn-outline'
+    }`}>Carts({cart.length})</button>
             </div>
 
             {
                !showCart && (
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 w-11/12 mx-auto">
                        {ProductsData.map(product => (
-                        <ProductCard key={product.id} product={product} add={add} />
+                        <ProductCard key={product.id} product={product} add={add} cart={cart} />
                        ))}
                     </div>
                 )
